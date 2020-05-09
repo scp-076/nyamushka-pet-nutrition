@@ -39,5 +39,25 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyApB2To-cFWT7oWqyHExYHxK4G8YYoZmuw",
+        authDomain: "nyamushka-pet-nutrition.firebaseapp.com",
+        databaseURL: "https://nyamushka-pet-nutrition.firebaseio.com",
+        projectId: "nyamushka-pet-nutrition",
+        storageBucket: "nyamushka-pet-nutrition.appspot.com",
+        messagingSenderId: "1012611276904",
+        appId: "1:1012611276904:web:ac283565a16b523375dbdd"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
